@@ -8,7 +8,7 @@
 <constant name="struts.multipart.saveDir" value="/tmp"></constant>
     <package name="default" namespace="/" extends="struts-default">
 	
-		<action name="uploadAction" class="com.zhy.action.FileUploadAction" method="doUpload">
+		<action name="uploadAction" class="com.kami.action.FileUploadAction" method="doUpload">
 		</action>
 	</package>
 	

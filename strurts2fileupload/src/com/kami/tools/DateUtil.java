@@ -1,4 +1,4 @@
-package com.zhy.action;
+package com.kami.tools;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
