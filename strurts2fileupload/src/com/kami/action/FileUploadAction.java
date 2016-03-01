@@ -23,7 +23,8 @@ public class FileUploadAction extends ActionSupport {
 //			SimpleDateFormat currentDateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
 //			String dateString = currentDateFormat.format(Calendar.getInstance().getTime());
 //			dateString.replace(" ", "-");
-			String basePath = "/users/user/GitDir/master_data/ExpData/OriginData/";
+//			String basePath = "/users/user/GitDir/master_data/ExpData/OriginData/";
+			String basePath = "E:\\Master_Code\\ActivityDetect\\GitDir\\master_data\\ExpData\\OriginData\\";
 			File fileDir = new File(basePath+FileTools.getDateAndType(uploadFileFileName));
 			if (!fileDir.exists()) {
 				fileDir.mkdir();
